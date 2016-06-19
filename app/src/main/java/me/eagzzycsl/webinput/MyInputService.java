@@ -6,6 +6,7 @@ import android.inputmethodservice.InputMethodService;
 import android.net.wifi.WifiManager;
 import android.os.Handler;
 import android.os.Message;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.inputmethod.InputConnection;
@@ -46,6 +47,7 @@ public class MyInputService extends InputMethodService {
     @Override
     public void onInitializeInterface() {
         super.onInitializeInterface();
+        MyLog.i(MyLog.msg_inputService, "初始化");
         settingSP = new SettingSP(this);
         state = getString(R.string.waitForConnect);
         port = settingSP.getDefaultPort();
@@ -142,9 +144,9 @@ public class MyInputService extends InputMethodService {
 
     @Override
     public void onDestroy() {
-        if (myWebSocketServer != null) {
-            myWebSocketServer.close();
-        }
+        MyLog.i(MyLog.msg_inputService, "销毁");
+        myWebSocketServer.close();
+
         super.onDestroy();
     }
 }

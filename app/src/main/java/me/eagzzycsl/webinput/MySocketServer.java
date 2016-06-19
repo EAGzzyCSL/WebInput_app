@@ -20,9 +20,12 @@ public abstract class MySocketServer {
                 client = server.accept();
                 onConnected();
                 startListenMsg();
+                MyLog.i(MyLog.msg_socketServer, "客户端已连接");
+
             } catch (IOException e) {
                 e.printStackTrace();
             }
+            MyLog.i(MyLog.msg_socketServer, "连接线程已结束");
         }
     };
     private Runnable listenMsgRunnable = new Runnable() {
@@ -37,6 +40,7 @@ public abstract class MySocketServer {
                     break;
                 }
                 if (readBytes != -1) {
+                    MyLog.i(MyLog.msg_socketServer, "读到的长度：" + readBytes);
                     onReceive(buffer, readBytes);
                 } else {
                     nowConnectionClose();

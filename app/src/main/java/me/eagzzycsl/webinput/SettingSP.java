@@ -13,7 +13,7 @@ public class SettingSP {
     }
 
     public int getDefaultPort() {
-        return Integer.valueOf(sp.getString("defaultPort", "6666"));
+        return Integer.valueOf(sp.getString("defaultPort", "1995"));
     }
 
 }

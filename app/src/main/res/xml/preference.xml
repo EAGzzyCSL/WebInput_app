@@ -1,6 +1,6 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
     <EditTextPreference
-        android:defaultValue="6666"
+        android:defaultValue="1995"
         android:hint="@string/hint_port"
         android:inputType="number"
         android:key="defaultPort"

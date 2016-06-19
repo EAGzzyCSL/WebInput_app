@@ -25,7 +25,7 @@
     <string name="share_subject">Android输入法WebInput</string>
     <string name="share_content">使用WebInput可以在pc端完成android设备的文本输入。下载地址http://eagzzycsl.github.io/WebInput</string>
     <string name="share_to">分享WebInput到</string>
-    <string name="url_official_website">https://www.github.com/EAGzzyCSL/WebInput_Android</string>
+    <string name="url_official_website">https://www.github.com/EAGzzyCSL/WebInput_app</string>
     <!--about-->
     <string name="about_what">WebInput是什么</string>
     <string name="about_what_detail">WebInput是一款利用浏览器WebSocket协议的输入法，可以利用笔记本或pc机的键盘在android手机上进行输入操作，提高输入效率。</string>
