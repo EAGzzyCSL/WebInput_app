@@ -1,0 +1,9 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue="6666"
+        android:hint="@string/hint_port"
+        android:inputType="number"
+        android:key="defaultPort"
+        android:summary="@string/setting_defaultPort_des"
+        android:title="@string/setting_defaultPort" />
+</PreferenceScreen>

@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">WebInput</string>
+    <!--action-->
+    <string name="action_setting">设置</string>
+    <string name="action_share">分享</string>
+    <string name="action_about">关于</string>
+    <!--title-->
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_main">WebInput Wizard</string>
+    <string name="title_activity_about">About</string>
+    <!--wizard-->
+    <string name="enable_WebInput">启用WebInput</string>
+    <string name="pick_WebInput">选择WebInput</string>
+    <string name="set_WebInput">设置WebInput</string>
+
+    <string name="visitLinkInNoteBook">使用pc端浏览器访问</string>
+    <string name="webLink">http://eagzzycsl.github.io/WebInput</string>
+    <string name="ok">OK</string>
+    <string name="premise">使用WebInput时手机和pc需连接同一wifi网络</string>
+    <!--state-->
+    <string name="haveConnected">成功连接到pc</string>
+    <string name="connectionInterrupt">连接已中断</string>
+    <string name="waitForConnect">等待连接中</string>
+    <!--share-->
+    <string name="share_subject">Android输入法WebInput</string>
+    <string name="share_content">使用WebInput可以在pc端完成android设备的文本输入。下载地址http://eagzzycsl.github.io/WebInput</string>
+    <string name="share_to">分享WebInput到</string>
+    <string name="url_official_website">https://www.github.com/EAGzzyCSL/WebInput_Android</string>
+    <!--about-->
+    <string name="about_what">WebInput是什么</string>
+    <string name="about_what_detail">WebInput是一款利用浏览器WebSocket协议的输入法，可以利用笔记本或pc机的键盘在android手机上进行输入操作，提高输入效率。</string>
+    <string name="about_how">如何使用WebInput</string>
+    <string name="about_how_detail">首先需要在android手机上安装WebSocket的app客户端并启用和选择该输入法，其次在pc端或笔记本上访问http://eagzzycsl.github.io/WebInput，在该页面的下方填入输入法中显示的ip地址和端口号并点击连接按钮，当浏览器页面提示已连接时即可使用WebInput作为android设备的输入法</string>
+    <string name="about_notice">注意事项</string>
+    <string name="about_notice_detail">使用WebInput需要pc端浏览器支持WebSocket协议，同时需要保证pc和android设备连接在同一局域网下或他们都获得了一个公网ip地址（注意，这样将面临极其严重的隐私威胁）。更多关于隐私的说明请见下文。</string>
+    <string name="about_bug">关于bug</string>
+    <string name="about_bug_detail">WebInput还属于demo阶段，存在很多的bug。</string>
+    <string name="about_contact">联系开发者</string>
+    <string name="about_contact_detail">GitHub：EAGzzyCSL</string>
+    <string name="about_privacy">隐私权</string>
+    <string name="about_privacy_detail">这是一款开源的app，所以你可以相信我没有主观侵犯你隐私的想法，但由于app现在还出于demo阶段，并未启用wss协议，所以你需要承担一些使用它的些隐私风险，如果你对当前局域网内连接的所有设备都信任，那么你比较安全的使用WebInput，如果你对当前局域网下的设备无法信任，那么不建议使用WebInput或使用WebInput来输入敏感信息。</string>
+    <!--setting-->
+    <string name="setting_defaultPort">默认端口</string>
+    <string name="setting_defaultPort_des">设置socket的默认端口，将在下一次连接时生效</string>
+    <string name="hint_port">一个合法端口号，建议大于1023</string>
+</resources>
